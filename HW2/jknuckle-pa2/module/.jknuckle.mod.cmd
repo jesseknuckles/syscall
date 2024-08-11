@@ -1,0 +1,1 @@
+cmd_/home/jknuckle/jknuckle-pa2/module/jknuckle.mod := printf '%s\n'   jknuckle.o | awk '!x[$$0]++ { print("/home/jknuckle/jknuckle-pa2/module/"$$0) }' > /home/jknuckle/jknuckle-pa2/module/jknuckle.mod

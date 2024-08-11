@@ -1,0 +1,1 @@
+cmd_/home/jknuckle/jknuckle-pa2/module/Module.symvers :=  sed 's/ko$$/o/'  /home/jknuckle/jknuckle-pa2/module/modules.order | scripts/mod/modpost -m     -o /home/jknuckle/jknuckle-pa2/module/Module.symvers -e -i Module.symvers -T - 

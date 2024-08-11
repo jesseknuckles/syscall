@@ -1,0 +1,1 @@
+cmd_/home/jknuckle/jknuckle-pa2/module/jknuckle.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o /home/jknuckle/jknuckle-pa2/module/jknuckle.ko /home/jknuckle/jknuckle-pa2/module/jknuckle.o /home/jknuckle/jknuckle-pa2/module/jknuckle.mod.o;  true
